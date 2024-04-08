@@ -10,7 +10,6 @@ type Category struct {
 	UpdatedAt	time.Time `gorm:"column:updated_at"`
 }
 
-
 func (Category) TableName() string {
 	return "category"
 }

@@ -13,11 +13,9 @@ type Product struct {
 	UpdatedAt	time.Time `gorm:"column:updated_at"`
 }
 
-
 func (Product) TableName() string {
 	return "product"
 }
-
 
 type ProductData struct {
 }
